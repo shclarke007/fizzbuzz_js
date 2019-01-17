@@ -14,4 +14,8 @@ describe("FizzBuzz", function() {
   it('returns the number if not divisible by neither 3 nor 5', function() {
     expect(fizzbuzz(1)).toEqual(1);
   });
+
+  it('returns a message if number is less than zero', function(){
+    expect(fizzbuzz(0)).toEqual('Enter a number greater than zero')
+  });
 });
