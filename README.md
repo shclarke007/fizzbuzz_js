@@ -2,6 +2,13 @@
 Explore testing Javascript using Jasmine framework.  
 Recreation of FizzBuzz challenge in Javascript. 
 
+## User Story
+```
+As a User
+So I can find out if a number is Fizz, Buzz or FizzBuzz
+I would like to input a number in a web app and find out
+```
+
 ## How to use
 ```
 git clone https://github.com/learningtocode101/fizzbuzz_js.git
