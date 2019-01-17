@@ -1,21 +1,26 @@
 describe("FizzBuzz", function() {
+
+  beforeEach(function(){
+    test = new FizzBuzz();
+  });
+
   it("returns fizzbuzz if number is divisible by 3 & 5", function() {
-    expect(fizzbuzz(15)).toEqual('fizzbuzz');
+    expect(test.play(15)).toEqual('fizzbuzz');
   });
 
   it('returns fizz if number is divisible by 3', function() {
-    expect(fizzbuzz(6)).toEqual('fizz');
+    expect(test.play(6)).toEqual('fizz');
   });
 
   it('returns buzz if number is divisible by 5', function() {
-    expect(fizzbuzz(20)).toEqual('buzz');
+    expect(test.play(20)).toEqual('buzz');
   });
 
   it('returns the number if not divisible by neither 3 nor 5', function() {
-    expect(fizzbuzz(1)).toEqual(1);
+    expect(test.play(1)).toEqual(1);
   });
 
   it('returns a message if number is less than zero', function(){
-    expect(fizzbuzz(0)).toEqual('Enter a number greater than zero')
+    expect(test.play(0)).toEqual('Enter a number greater than zero')
   });
 });
