@@ -1,8 +1,6 @@
 describe("FizzBuzz", function() {
 
-  beforeEach(function(){
-    test = new FizzBuzz();
-  });
+  test = new FizzBuzz();
 
   it("returns fizzbuzz if number is divisible by 3 & 5", function() {
     expect(test.play(15)).toEqual('fizzbuzz');
