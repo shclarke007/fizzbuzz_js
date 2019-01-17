@@ -5,11 +5,7 @@ let info = document.getElementById('info');
 
 submit_button.addEventListener('click', function() {
   let num = document.getElementById('user_input').value;
-  if(num <= 0){
-    info.innerText = "You need to enter a number greater than zero";
-  } else {
-      fizz_output.textContent = fizzbuzz(num);
-  }
+    fizz_output.textContent = fizzbuzz(num);
 });
 
 
