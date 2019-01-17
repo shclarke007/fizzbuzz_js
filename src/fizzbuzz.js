@@ -1,11 +1,9 @@
-
-let fizz_output = document.getElementById('fizz_output');
 let submit_button = document.getElementById('submit_button');
-let info = document.getElementById('info');
 
 submit_button.addEventListener('click', function() {
+  let fizz_output = document.getElementById('fizz_output');
   let num = document.getElementById('user_input').value;
-    fizz_output.textContent = fizzbuzz(num);
+  fizz_output.textContent = fizzbuzz(num);
 });
 
 
