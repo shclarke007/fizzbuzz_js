@@ -1,18 +1,14 @@
 ## Description
 Explore testing Javascript using Jasmine framework.  
-Recreation of FizzBuzz challenge in Javascript 
+Recreation of FizzBuzz challenge in Javascript. 
 
 ## How to use
 ```
 git clone https://github.com/learningtocode101/fizzbuzz_js.git
 cd fizzbuzz_js
-open SpecRunner.html 
+open index.html 
 ```
 ## Approach to learning
-I started out this challenge having understood the requirements from when it was first created using Ruby.  
-I then applied the same problem solving methodology but using Javascript language.  
-Having an understanding of the problem I employed  Red-Green-Refactor approach  
- Created tests that failed and then implemented code using conditional statements to check the number divisbility and added statement to be executed if condidition is met.  
-Passed test and then commited.    
-Repeated process for each condition of the problem.  
-After successfully completing, I then refactored code so it is easy to read and understanding.  
+1. I started out this challenge having understood the requirements from when it was first created using Ruby.  
+2. I applied the same problem solving methodology but using Javascript language, researching as and when need.    
+3. Having an understanding of the problem I employed Red-Green-Refactor approach i.e. creating tests, watching them fail and then implementing code to pass the tests then refactoring code to ensure it was DRY. 
